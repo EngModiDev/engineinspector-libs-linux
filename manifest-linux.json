@@ -1,0 +1,25 @@
+{
+    "manifest_version": "1.0.0",
+    "project": "engineinspector",
+    "component": "libclang-core",
+    "deployment": {
+        "environment": "production",
+        "host_os": "linux",
+        "architecture": "x86_64",
+        "shell_context": "WSL (Windows Subsystem for Linux)"
+    },
+    "binary_properties": {
+        "filename": "libclang.so",
+        "local_absolute_path": "/mnt/d/engineinspector-libs-linux/libclang.so",
+        "file_type": "Shared Object (SO)"
+    },
+    "security_verification": {
+        "hash_algorithm": "SHA-256",
+        "checksum": "8b03ee2c60f0699651869fea5135cb5a144777a10c6e4b9b7835283ac9ca3f7d",
+        "oracle_validation": "Sovereign Rust Oracle Verified"
+    },
+    "metadata": {
+        "created_at": "2026-07-06T21:10:00Z",
+        "status": "ready_for_linking"
+    }
+}
